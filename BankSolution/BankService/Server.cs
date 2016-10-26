@@ -13,7 +13,7 @@ using BankService.Properties;
 
 namespace BankService
 {
-    class Server
+    public class Server
     {
       
         public void Start(BankAppService service)
