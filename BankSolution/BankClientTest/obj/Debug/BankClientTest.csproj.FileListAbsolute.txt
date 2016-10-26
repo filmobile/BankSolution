@@ -1,0 +1,12 @@
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankClientTest.exe.config
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankClientTest.exe
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankClientTest.pdb
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankModel.dll
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankService.exe
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankModel.pdb
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankService.pdb
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\obj\Debug\BankClientTest.csprojResolveAssemblyReference.cache
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\obj\Debug\BankClientTest.exe
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\obj\Debug\BankClientTest.pdb
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankAppService.dll
+C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankAppService.pdb

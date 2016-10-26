@@ -1,0 +1,4 @@
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankModel\bin\Debug\BankModel.dll
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankModel\bin\Debug\BankModel.pdb
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankModel\obj\Debug\BankModel.dll
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankModel\obj\Debug\BankModel.pdb

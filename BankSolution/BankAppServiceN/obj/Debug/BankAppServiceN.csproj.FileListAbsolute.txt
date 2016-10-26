@@ -1,0 +1,7 @@
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\bin\Debug\BankAppServiceN.dll
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\bin\Debug\BankAppServiceN.pdb
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\bin\Debug\BankModel.dll
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\bin\Debug\BankModel.pdb
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\obj\Debug\BankAppServiceN.csprojResolveAssemblyReference.cache
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\obj\Debug\BankAppServiceN.dll
+c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankAppServiceN\obj\Debug\BankAppServiceN.pdb
