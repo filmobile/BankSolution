@@ -8,3 +8,13 @@ c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankSer
 c:\users\андрій\documents\visual studio 2015\Projects\BankSolution\BankService\bin\Debug\BankModel.pdb
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankService\bin\Debug\BankAppService.dll
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankService\bin\Debug\BankAppService.pdb
+D:\TestGit\BankSolution\BankService\bin\Debug\BankService.exe.config
+D:\TestGit\BankSolution\BankService\bin\Debug\BankService.exe
+D:\TestGit\BankSolution\BankService\bin\Debug\BankService.pdb
+D:\TestGit\BankSolution\BankService\bin\Debug\BankAppService.dll
+D:\TestGit\BankSolution\BankService\bin\Debug\BankModel.dll
+D:\TestGit\BankSolution\BankService\bin\Debug\BankAppService.pdb
+D:\TestGit\BankSolution\BankService\bin\Debug\BankModel.pdb
+D:\TestGit\BankSolution\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+D:\TestGit\BankSolution\BankService\obj\Debug\BankService.exe
+D:\TestGit\BankSolution\BankService\obj\Debug\BankService.pdb

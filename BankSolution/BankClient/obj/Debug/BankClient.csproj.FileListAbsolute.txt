@@ -18,3 +18,23 @@ C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankCli
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClient\obj\Debug\BankClient.RegistrPanel.resources
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClient\obj\Debug\BankClient.BankOperationForm.resources
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClient\obj\Debug\BankClient.BankOperationPanel.resources
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankClient.exe.config
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.exe
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.pdb
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankClient.exe
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankClient.pdb
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankAppService.dll
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankModel.dll
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankService.exe
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankAppService.pdb
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankModel.pdb
+D:\TestGit\BankSolution\BankClient\bin\Debug\BankService.pdb
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.csprojResolveAssemblyReference.cache
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.AuthorizationForm.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.AuthorizePanel.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.BankOperationForm.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.BankOperationPanel.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.Properties.Resources.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.RegistrationForm.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.RegistrPanel.resources
+D:\TestGit\BankSolution\BankClient\obj\Debug\BankClient.csproj.GenerateResource.Cache

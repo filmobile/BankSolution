@@ -28,8 +28,9 @@ namespace BankClient
         {
             try
             {
-                var cmd = new GetBalanceCommand() { AccountId = tbAccountId.Text };
-                MessageBox.Show(((Client.Execute(cmd) as BalanceAnswer).Balans).ToString());
+                
+                    var cmd = new GetBalanceCommand() { AccountId = tbAccountId.Text };
+                    MessageBox.Show(((Client.Execute(cmd) as BalanceAnswer).Balans).ToString());
             }
             catch (Exception ex)
             {
@@ -101,9 +102,13 @@ namespace BankClient
         {
             try
             {
-                var cmd = new CreateTransactionCommand() { FromAccountId = tbFromAccountId.Text, ToAccountId = tbToAccountId.Text, Sum = decimal.Parse(tbSumForTransfer.Text) };
-                Client.Execute(cmd);
-                MessageBox.Show("Transfer Success!");
+                if (tbFromAccountId.Text != tbToAccountId.Text)
+                {
+                    var cmd = new CreateTransactionCommand() { FromAccountId = tbFromAccountId.Text, ToAccountId = tbToAccountId.Text, Sum = decimal.Parse(tbSumForTransfer.Text) };
+                    Client.Execute(cmd);
+                    MessageBox.Show("Transfer Success!");
+                }
+                MessageBox.Show("Can't transfer from same Account!");
             }
             catch (Exception ex)
             {
