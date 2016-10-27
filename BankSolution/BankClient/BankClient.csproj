@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountPanel.Designer.cs">
+      <DependentUpon>AccountPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="AuthorizationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,12 @@
     </Compile>
     <Compile Include="AuthorizePanel.Designer.cs">
       <DependentUpon>AuthorizePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BalancePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BalancePanel.Designer.cs">
+      <DependentUpon>BalancePanel.cs</DependentUpon>
     </Compile>
     <Compile Include="BankOperationForm.cs">
       <SubType>Form</SubType>
@@ -85,7 +97,19 @@
     <Compile Include="BankOperationPanel.Designer.cs">
       <DependentUpon>BankOperationPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChargeBalancePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChargeBalancePanel.Designer.cs">
+      <DependentUpon>ChargeBalancePanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Client.cs" />
+    <Compile Include="PnMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PnMain.Designer.cs">
+      <DependentUpon>PnMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrationForm.cs">
@@ -100,18 +124,42 @@
     <Compile Include="RegistrPanel.Designer.cs">
       <DependentUpon>RegistrPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="SimplePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimplePanel.Designer.cs">
+      <DependentUpon>SimplePanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="TCPClient.cs" />
+    <Compile Include="TransferMoneyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TransferMoneyPanel.Designer.cs">
+      <DependentUpon>TransferMoneyPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountPanel.resx">
+      <DependentUpon>AccountPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AuthorizePanel.resx">
       <DependentUpon>AuthorizePanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BalancePanel.resx">
+      <DependentUpon>BalancePanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BankOperationForm.resx">
       <DependentUpon>BankOperationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BankOperationPanel.resx">
       <DependentUpon>BankOperationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChargeBalancePanel.resx">
+      <DependentUpon>ChargeBalancePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PnMain.resx">
+      <DependentUpon>PnMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,6 +175,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrPanel.resx">
       <DependentUpon>RegistrPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimplePanel.resx">
+      <DependentUpon>SimplePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferMoneyPanel.resx">
+      <DependentUpon>TransferMoneyPanel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
