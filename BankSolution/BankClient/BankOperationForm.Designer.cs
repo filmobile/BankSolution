@@ -28,28 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bnClientData = new System.Windows.Forms.Button();
-            this.bankOperationPanel1 = new BankClient.BankOperationPanel();
             this.dgvData = new System.Windows.Forms.DataGridView();
+            this.btCreateAccount = new System.Windows.Forms.Button();
+            this.btShowBalance = new System.Windows.Forms.Button();
+            this.btChargeBalance = new System.Windows.Forms.Button();
+            this.btTransferMoney = new System.Windows.Forms.Button();
+            this.pnMain1 = new BankClient.PnMain();
+            this.simplePanel1 = new BankClient.SimplePanel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.SuspendLayout();
-            // 
-            // bnClientData
-            // 
-            this.bnClientData.Location = new System.Drawing.Point(356, 12);
-            this.bnClientData.Name = "bnClientData";
-            this.bnClientData.Size = new System.Drawing.Size(75, 23);
-            this.bnClientData.TabIndex = 1;
-            this.bnClientData.Text = "ClientData";
-            this.bnClientData.UseVisualStyleBackColor = true;
-            this.bnClientData.Click += new System.EventHandler(this.bnClientData_Click);
-            // 
-            // bankOperationPanel1
-            // 
-            this.bankOperationPanel1.Location = new System.Drawing.Point(308, 53);
-            this.bankOperationPanel1.Name = "bankOperationPanel1";
-            this.bankOperationPanel1.Size = new System.Drawing.Size(627, 332);
-            this.bankOperationPanel1.TabIndex = 0;
             // 
             // dgvData
             // 
@@ -59,14 +46,72 @@
             this.dgvData.Size = new System.Drawing.Size(327, 184);
             this.dgvData.TabIndex = 2;
             // 
+            // btCreateAccount
+            // 
+            this.btCreateAccount.Location = new System.Drawing.Point(347, 38);
+            this.btCreateAccount.Name = "btCreateAccount";
+            this.btCreateAccount.Size = new System.Drawing.Size(89, 30);
+            this.btCreateAccount.TabIndex = 3;
+            this.btCreateAccount.Text = "CreateAccount";
+            this.btCreateAccount.UseVisualStyleBackColor = true;
+            this.btCreateAccount.Click += new System.EventHandler(this.btCreateAccount_Click);
+            // 
+            // btShowBalance
+            // 
+            this.btShowBalance.Location = new System.Drawing.Point(347, 85);
+            this.btShowBalance.Name = "btShowBalance";
+            this.btShowBalance.Size = new System.Drawing.Size(89, 30);
+            this.btShowBalance.TabIndex = 5;
+            this.btShowBalance.Text = "ShowBalance";
+            this.btShowBalance.UseVisualStyleBackColor = true;
+            this.btShowBalance.Click += new System.EventHandler(this.btShowBalance_Click);
+            // 
+            // btChargeBalance
+            // 
+            this.btChargeBalance.Location = new System.Drawing.Point(347, 132);
+            this.btChargeBalance.Name = "btChargeBalance";
+            this.btChargeBalance.Size = new System.Drawing.Size(89, 31);
+            this.btChargeBalance.TabIndex = 6;
+            this.btChargeBalance.Text = "ChargeBalance";
+            this.btChargeBalance.UseVisualStyleBackColor = true;
+            this.btChargeBalance.Click += new System.EventHandler(this.btChargeBalance_Click);
+            // 
+            // btTransferMoney
+            // 
+            this.btTransferMoney.Location = new System.Drawing.Point(347, 179);
+            this.btTransferMoney.Name = "btTransferMoney";
+            this.btTransferMoney.Size = new System.Drawing.Size(89, 34);
+            this.btTransferMoney.TabIndex = 8;
+            this.btTransferMoney.Text = "TransferMoney";
+            this.btTransferMoney.UseVisualStyleBackColor = true;
+            this.btTransferMoney.Click += new System.EventHandler(this.btTransferMoney_Click);
+            // 
+            // pnMain1
+            // 
+            this.pnMain1.Location = new System.Drawing.Point(488, 20);
+            this.pnMain1.Name = "pnMain1";
+            this.pnMain1.Size = new System.Drawing.Size(275, 261);
+            this.pnMain1.TabIndex = 7;
+            // 
+            // simplePanel1
+            // 
+            this.simplePanel1.Location = new System.Drawing.Point(476, 20);
+            this.simplePanel1.Name = "simplePanel1";
+            this.simplePanel1.Size = new System.Drawing.Size(314, 282);
+            this.simplePanel1.TabIndex = 4;
+            // 
             // BankOperationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 440);
+            this.ClientSize = new System.Drawing.Size(802, 323);
+            this.Controls.Add(this.btTransferMoney);
+            this.Controls.Add(this.pnMain1);
+            this.Controls.Add(this.btChargeBalance);
+            this.Controls.Add(this.btShowBalance);
+            this.Controls.Add(this.simplePanel1);
+            this.Controls.Add(this.btCreateAccount);
             this.Controls.Add(this.dgvData);
-            this.Controls.Add(this.bnClientData);
-            this.Controls.Add(this.bankOperationPanel1);
             this.Name = "BankOperationForm";
             this.Text = "BankOperationForm";
             this.Load += new System.EventHandler(this.BankOperationForm_Load);
@@ -76,9 +121,12 @@
         }
 
         #endregion
-
-        private BankOperationPanel bankOperationPanel1;
-        private System.Windows.Forms.Button bnClientData;
         private System.Windows.Forms.DataGridView dgvData;
+        private System.Windows.Forms.Button btCreateAccount;
+        private SimplePanel simplePanel1;
+        private System.Windows.Forms.Button btShowBalance;
+        private System.Windows.Forms.Button btChargeBalance;
+        private PnMain pnMain1;
+        private System.Windows.Forms.Button btTransferMoney;
     }
 }
