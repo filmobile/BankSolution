@@ -64,3 +64,4 @@ D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.BalancePane
 D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.ChargeBalancePanel.resources
 D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.TransferMoneyPanel.resources
 D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.PnMain.resources
+D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.CurrencyPanel.resources

@@ -104,6 +104,12 @@
       <DependentUpon>ChargeBalancePanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Client.cs" />
+    <Compile Include="CurrencyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CurrencyPanel.Designer.cs">
+      <DependentUpon>CurrencyPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="PnMain.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChargeBalancePanel.resx">
       <DependentUpon>ChargeBalancePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrencyPanel.resx">
+      <DependentUpon>CurrencyPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PnMain.resx">
       <DependentUpon>PnMain.cs</DependentUpon>
