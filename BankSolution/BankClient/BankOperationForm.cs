@@ -26,7 +26,9 @@ namespace BankClient
             foreach (var p in (Client.Execute(cmd) as ClientAccountAnswer).Accounts)
                 dataTable.Rows.Add(p.Id.ToString(), p.Currency.ToString(), p.Balance.ToString());
         }
+
         private DataTable dataTable;
+
         public void Build()
         {
             dataTable = new DataTable();
@@ -67,5 +69,7 @@ namespace BankClient
             pnMain1.Controls.Clear();
             new TransferMoneyPanel() {Parent=pnMain1, Dock=DockStyle.Fill };
         }
+
+        
     }
 }
