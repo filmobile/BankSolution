@@ -34,6 +34,7 @@ namespace BankClient
                     Client.Execute(cmd);
                     MessageBox.Show("Transfer Success!");
                 }
+                else
                 MessageBox.Show("Can't transfer from same Account!");
             }
             catch (Exception ex)
