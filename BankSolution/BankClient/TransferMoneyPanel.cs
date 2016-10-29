@@ -44,12 +44,16 @@ namespace BankClient
 
         private void TransferMoneyPanel_Load(object sender, EventArgs e)
         {
-            List<string> list = new List<string>();
+            List<string> listFrom = new List<string>();
+            List<string> listTo = new List<string>();
             var cmd = new GetClientAccountCommand() { UserLogin = Client.UserLoginIn };
             foreach (var p in (Client.Execute(cmd) as ClientAccountAnswer).Accounts)
-                list.Add(p.Id.ToString());
-            cbFromAccountId.DataSource = list;
-            cbToAccountId.DataSource = list;
+            {
+                listFrom.Add(p.Id.ToString());
+                listTo.Add(p.Id.ToString() );
+            }
+            cbFromAccountId.DataSource = listFrom;
+            cbToAccountId.DataSource = listTo;
         }
     }
 }
