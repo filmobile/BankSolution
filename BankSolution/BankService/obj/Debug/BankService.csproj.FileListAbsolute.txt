@@ -18,3 +18,13 @@ D:\TestGit\BankSolution\BankService\bin\Debug\BankModel.pdb
 D:\TestGit\BankSolution\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
 D:\TestGit\BankSolution\BankService\obj\Debug\BankService.exe
 D:\TestGit\BankSolution\BankService\obj\Debug\BankService.pdb
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankService.exe.config
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankService.exe
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankService.pdb
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankAppService.dll
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankModel.dll
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankAppService.pdb
+D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankModel.pdb
+D:\SourceTreeRepository\BankSolution\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+D:\SourceTreeRepository\BankSolution\BankService\obj\Debug\BankService.exe
+D:\SourceTreeRepository\BankSolution\BankService\obj\Debug\BankService.pdb

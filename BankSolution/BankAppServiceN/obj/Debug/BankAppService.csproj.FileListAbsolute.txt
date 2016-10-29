@@ -6,3 +6,11 @@ C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankApp
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankAppServiceN\bin\Debug\BankAppService.pdb
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankAppServiceN\obj\Debug\BankAppService.dll
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankAppServiceN\obj\Debug\BankAppService.pdb
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\bin\Debug\BankAppService.dll.config
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\bin\Debug\BankAppService.dll
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\bin\Debug\BankAppService.pdb
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\bin\Debug\BankModel.dll
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\bin\Debug\BankModel.pdb
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\obj\Debug\BankAppService.csprojResolveAssemblyReference.cache
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\obj\Debug\BankAppService.dll
+D:\SourceTreeRepository\BankSolution\BankAppServiceN\obj\Debug\BankAppService.pdb

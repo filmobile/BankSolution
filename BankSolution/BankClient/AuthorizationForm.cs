@@ -21,7 +21,6 @@ namespace BankClient
           
         }
     
-
         private void authorizePanel2_LoginSuccessfull(object sender, EventArgs e)
         {
             DialogResult = DialogResult.OK;

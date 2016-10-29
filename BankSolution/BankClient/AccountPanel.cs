@@ -19,6 +19,14 @@ namespace BankClient
             InitializeComponent();
         }
 
+        public event EventHandler BankOperationSuccess;
+
+        public void OnBankOperationSuccess()
+        {
+            if (this.BankOperationSuccess != null)
+                this.BankOperationSuccess(this, EventArgs.Empty);
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -30,6 +38,7 @@ namespace BankClient
             {
                 var cmd = new CreateAccountCommand() { UserLogin = Client.UserLoginIn, Currency = (Currency)cmbCurrency.SelectedItem };
                 Client.Execute(cmd);
+                OnBankOperationSuccess();
                 MessageBox.Show("Account have been created!");
             }
             catch (Exception ex)
