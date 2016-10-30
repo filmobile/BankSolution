@@ -19,7 +19,7 @@ namespace BankClient.BaseControls
             control.BringToFront();
             if (control.MinimumSize != Size.Empty)
             { 
-                SetClientSizeCore(control.MinimumSize.Width, control.MinimumSize.Height + lbTitle.Height);
+                SetClientSizeCore(control.MinimumSize.Width, control.MinimumSize.Height + pnTop.Height);
                 this.MinimumSize = Size;
             }
             control.DialogResult += (o, e) => this.DialogResult = e.DialogResult;
