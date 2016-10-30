@@ -39,5 +39,10 @@ namespace BankAppServiceNS.Commands
         public string Id { get; set; }
         public Currency Currency { get; set; }
         public decimal Balance { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("Acc {0}, Balance: {1:0.00} {2}", Id, Balance, Currency);
+        }
     }
 }

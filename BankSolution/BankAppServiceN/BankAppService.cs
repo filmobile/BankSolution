@@ -74,6 +74,9 @@ namespace BankAppServiceNS
 
         public void CreateTransaction(string fromAccountId, string toAccountId, decimal sum)
         {
+            if (fromAccountId == toAccountId)
+                throw new Exception("Can not transfer money to same account");
+
             var accountFrom = bank.Accounts.First(p => p.Id == fromAccountId);
             var accountTo = bank.Accounts.First(p => p.Id == toAccountId);
             bank.MakeTransaction(accountFrom, accountTo, sum);
