@@ -44,6 +44,7 @@
             // 
             // cbAccountId
             // 
+            this.cbAccountId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAccountId.FormattingEnabled = true;
             this.cbAccountId.Location = new System.Drawing.Point(40, 51);
             this.cbAccountId.Name = "cbAccountId";

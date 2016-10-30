@@ -45,6 +45,7 @@
             // 
             // cmbCurrency
             // 
+            this.cmbCurrency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCurrency.FormattingEnabled = true;
             this.cmbCurrency.Location = new System.Drawing.Point(35, 38);
             this.cmbCurrency.Name = "cmbCurrency";

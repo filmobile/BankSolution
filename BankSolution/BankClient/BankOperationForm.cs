@@ -18,7 +18,7 @@ namespace BankClient
             InitializeComponent();
          
         }
-     
+      
         private void BankOperationForm_Load(object sender, EventArgs e)
         {
             Build();
