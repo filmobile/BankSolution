@@ -28,3 +28,13 @@ D:\SourceTreeRepository\BankSolution\BankService\bin\Debug\BankModel.pdb
 D:\SourceTreeRepository\BankSolution\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
 D:\SourceTreeRepository\BankSolution\BankService\obj\Debug\BankService.exe
 D:\SourceTreeRepository\BankSolution\BankService\obj\Debug\BankService.pdb
+C:\51\BankSolution\BankService\bin\Debug\BankService.exe.config
+C:\51\BankSolution\BankService\bin\Debug\BankService.exe
+C:\51\BankSolution\BankService\bin\Debug\BankService.pdb
+C:\51\BankSolution\BankService\bin\Debug\BankAppService.dll
+C:\51\BankSolution\BankService\bin\Debug\BankModel.dll
+C:\51\BankSolution\BankService\bin\Debug\BankAppService.pdb
+C:\51\BankSolution\BankService\bin\Debug\BankModel.pdb
+C:\51\BankSolution\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+C:\51\BankSolution\BankService\obj\Debug\BankService.exe
+C:\51\BankSolution\BankService\obj\Debug\BankService.pdb

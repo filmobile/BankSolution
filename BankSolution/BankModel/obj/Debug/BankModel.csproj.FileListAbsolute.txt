@@ -7,3 +7,8 @@ D:\SourceTreeRepository\BankSolution\BankModel\bin\Debug\BankModel.pdb
 D:\SourceTreeRepository\BankSolution\BankModel\obj\Debug\BankModel.dll
 D:\SourceTreeRepository\BankSolution\BankModel\obj\Debug\BankModel.pdb
 D:\SourceTreeRepository\BankSolution\BankModel\obj\Debug\BankModel.csprojResolveAssemblyReference.cache
+C:\51\BankSolution\BankModel\bin\Debug\BankModel.dll
+C:\51\BankSolution\BankModel\bin\Debug\BankModel.pdb
+C:\51\BankSolution\BankModel\obj\Debug\BankModel.csprojResolveAssemblyReference.cache
+C:\51\BankSolution\BankModel\obj\Debug\BankModel.dll
+C:\51\BankSolution\BankModel\obj\Debug\BankModel.pdb

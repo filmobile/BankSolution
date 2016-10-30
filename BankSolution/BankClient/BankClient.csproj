@@ -50,125 +50,80 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountPanel.cs">
+    <Compile Include="BaseControls\BaseControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AccountPanel.Designer.cs">
-      <DependentUpon>AccountPanel.cs</DependentUpon>
+    <Compile Include="BaseControls\ExButton.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="AuthorizationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AuthorizationForm.Designer.cs">
-      <DependentUpon>AuthorizationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AuthorizePanel.cs">
+    <Compile Include="Controls\BankOperationPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AuthorizePanel.Designer.cs">
-      <DependentUpon>AuthorizePanel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BalancePanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="BalancePanel.Designer.cs">
-      <DependentUpon>BalancePanel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BankOperationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BankOperationForm.Designer.cs">
-      <DependentUpon>BankOperationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BankOperationPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="BankOperationPanel.Designer.cs">
+    <Compile Include="Controls\BankOperationPanel.Designer.cs">
       <DependentUpon>BankOperationPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChargeBalancePanel.cs">
+    <Compile Include="Controls\CreateAccountPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ChargeBalancePanel.Designer.cs">
+    <Compile Include="Controls\CreateAccountPanel.Designer.cs">
+      <DependentUpon>CreateAccountPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AuthorizePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AuthorizePanel.Designer.cs">
+      <DependentUpon>AuthorizePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChargeBalancePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ChargeBalancePanel.Designer.cs">
       <DependentUpon>ChargeBalancePanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Client.cs" />
-    <Compile Include="CurrencyPanel.cs">
+    <Compile Include="Controls\CurrencyPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CurrencyPanel.Designer.cs">
+    <Compile Include="Controls\CurrencyPanel.Designer.cs">
       <DependentUpon>CurrencyPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="PnMain.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PnMain.Designer.cs">
-      <DependentUpon>PnMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrationForm.cs">
+    <Compile Include="BaseControls\BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrationForm.Designer.cs">
-      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    <Compile Include="BaseControls\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="RegistrPanel.Designer.cs">
-      <DependentUpon>RegistrPanel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SimplePanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SimplePanel.Designer.cs">
-      <DependentUpon>SimplePanel.cs</DependentUpon>
-    </Compile>
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TCPClient.cs" />
-    <Compile Include="TransferMoneyPanel.cs">
+    <Compile Include="Controls\TransferMoneyPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TransferMoneyPanel.Designer.cs">
+    <Compile Include="Controls\TransferMoneyPanel.Designer.cs">
       <DependentUpon>TransferMoneyPanel.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AccountPanel.resx">
-      <DependentUpon>AccountPanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AuthorizationForm.resx">
-      <DependentUpon>AuthorizationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AuthorizePanel.resx">
-      <DependentUpon>AuthorizePanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BalancePanel.resx">
-      <DependentUpon>BalancePanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BankOperationForm.resx">
-      <DependentUpon>BankOperationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BankOperationPanel.resx">
+    <EmbeddedResource Include="Controls\BankOperationPanel.resx">
       <DependentUpon>BankOperationPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChargeBalancePanel.resx">
+    <EmbeddedResource Include="Controls\CreateAccountPanel.resx">
+      <DependentUpon>CreateAccountPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AuthorizePanel.resx">
+      <DependentUpon>AuthorizePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ChargeBalancePanel.resx">
       <DependentUpon>ChargeBalancePanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CurrencyPanel.resx">
+    <EmbeddedResource Include="Controls\CurrencyPanel.resx">
       <DependentUpon>CurrencyPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PnMain.resx">
-      <DependentUpon>PnMain.cs</DependentUpon>
+    <EmbeddedResource Include="BaseControls\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -178,17 +133,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RegistrationForm.resx">
-      <DependentUpon>RegistrationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegistrPanel.resx">
-      <DependentUpon>RegistrPanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SimplePanel.resx">
-      <DependentUpon>SimplePanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TransferMoneyPanel.resx">
+    <EmbeddedResource Include="Controls\TransferMoneyPanel.resx">
       <DependentUpon>TransferMoneyPanel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -213,10 +160,6 @@
       <Project>{ff66f82f-c8b6-4c69-8f31-aacf48862735}</Project>
       <Name>BankModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BankService\BankService.csproj">
-      <Project>{9fe60378-c355-42bc-93c1-92546e19f622}</Project>
-      <Name>BankService</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -230,6 +173,10 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_bg.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
