@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BankClient.BaseControls;
+using BankClient.Controls;
 
 namespace BankClient
 {
@@ -14,13 +15,17 @@ namespace BankClient
         [STAThread]
         static void Main()
         {
+            ExceptionHandler.Init();
+
             Application.SetCompatibleTextRenderingDefault(false);
             Application.EnableVisualStyles();
-            if (new AuthorizationForm().ShowDialog() ==DialogResult.OK )
+
+            if (BaseForm.ShowDialog("Авторизация", "Авторизация", new AuthorizePanel()) == DialogResult.OK )
             {
-                Application.Run(new BankOperationForm());
-            }
-                      
+                var form = new BaseForm();
+                form.Build("Банкомат", "Здравствуйте, " + Client.UserLoginIn, new BankOperationPanel());
+                Application.Run(form);
+            }             
         }
     }
 }

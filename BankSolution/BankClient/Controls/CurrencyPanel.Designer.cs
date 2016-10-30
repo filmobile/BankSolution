@@ -1,4 +1,6 @@
-﻿namespace BankClient
+﻿using BankClient.BaseControls;
+
+namespace BankClient.Controls
 {
     partial class CurrencyPanel
     {
@@ -34,13 +36,13 @@
             this.tbUS = new System.Windows.Forms.TextBox();
             this.tbEU = new System.Windows.Forms.TextBox();
             this.tbUA = new System.Windows.Forms.TextBox();
-            this.btCurrency = new System.Windows.Forms.Button();
+            this.btCurrency = new BankClient.BaseControls.ExButton();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 33);
+            this.label2.Location = new System.Drawing.Point(3, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(22, 13);
             this.label2.TabIndex = 1;
@@ -49,7 +51,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 56);
+            this.label3.Location = new System.Drawing.Point(3, 42);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(22, 13);
             this.label3.TabIndex = 2;
@@ -58,7 +60,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 82);
+            this.label4.Location = new System.Drawing.Point(3, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(22, 13);
             this.label4.TabIndex = 3;
@@ -66,7 +68,7 @@
             // 
             // tbUS
             // 
-            this.tbUS.Location = new System.Drawing.Point(42, 30);
+            this.tbUS.Location = new System.Drawing.Point(42, 13);
             this.tbUS.Name = "tbUS";
             this.tbUS.ReadOnly = true;
             this.tbUS.Size = new System.Drawing.Size(57, 20);
@@ -74,7 +76,7 @@
             // 
             // tbEU
             // 
-            this.tbEU.Location = new System.Drawing.Point(42, 56);
+            this.tbEU.Location = new System.Drawing.Point(42, 39);
             this.tbEU.Name = "tbEU";
             this.tbEU.ReadOnly = true;
             this.tbEU.Size = new System.Drawing.Size(57, 20);
@@ -82,7 +84,7 @@
             // 
             // tbUA
             // 
-            this.tbUA.Location = new System.Drawing.Point(42, 79);
+            this.tbUA.Location = new System.Drawing.Point(42, 65);
             this.tbUA.Name = "tbUA";
             this.tbUA.ReadOnly = true;
             this.tbUA.Size = new System.Drawing.Size(57, 20);
@@ -90,11 +92,14 @@
             // 
             // btCurrency
             // 
-            this.btCurrency.Location = new System.Drawing.Point(24, 3);
+            this.btCurrency.BackColor = System.Drawing.Color.Silver;
+            this.btCurrency.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btCurrency.Location = new System.Drawing.Point(155, 45);
             this.btCurrency.Name = "btCurrency";
-            this.btCurrency.Size = new System.Drawing.Size(75, 21);
+            this.btCurrency.Size = new System.Drawing.Size(110, 40);
             this.btCurrency.TabIndex = 7;
-            this.btCurrency.Text = "Currency";
+            this.btCurrency.Text = "Set rates";
+            this.btCurrency.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btCurrency.UseVisualStyleBackColor = true;
             this.btCurrency.Click += new System.EventHandler(this.btCurrency_Click);
             // 
@@ -110,8 +115,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "CurrencyPanel";
-            this.Size = new System.Drawing.Size(126, 112);
-            this.Load += new System.EventHandler(this.CurrencyPanel_Load);
+            this.Size = new System.Drawing.Size(294, 104);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,6 +128,6 @@
         private System.Windows.Forms.TextBox tbUS;
         private System.Windows.Forms.TextBox tbEU;
         private System.Windows.Forms.TextBox tbUA;
-        private System.Windows.Forms.Button btCurrency;
+        private ExButton btCurrency;
     }
 }

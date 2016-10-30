@@ -10,3 +10,15 @@ C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankCli
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\obj\Debug\BankClientTest.pdb
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankAppService.dll
 C:\Users\Андрій\Documents\Visual Studio 2015\Projects\BankSolution\BankClientTest\bin\Debug\BankAppService.pdb
+C:\51\BankSolution\BankClientTest\bin\Debug\BankClientTest.exe.config
+C:\51\BankSolution\BankClientTest\bin\Debug\BankClientTest.exe
+C:\51\BankSolution\BankClientTest\bin\Debug\BankClientTest.pdb
+C:\51\BankSolution\BankClientTest\bin\Debug\BankAppService.dll
+C:\51\BankSolution\BankClientTest\bin\Debug\BankModel.dll
+C:\51\BankSolution\BankClientTest\bin\Debug\BankService.exe
+C:\51\BankSolution\BankClientTest\bin\Debug\BankAppService.pdb
+C:\51\BankSolution\BankClientTest\bin\Debug\BankModel.pdb
+C:\51\BankSolution\BankClientTest\bin\Debug\BankService.pdb
+C:\51\BankSolution\BankClientTest\obj\Debug\BankClientTest.csprojResolveAssemblyReference.cache
+C:\51\BankSolution\BankClientTest\obj\Debug\BankClientTest.exe
+C:\51\BankSolution\BankClientTest\obj\Debug\BankClientTest.pdb
