@@ -72,6 +72,17 @@ namespace BankAppServiceNS
             return list;
         }
 
+        public List<MadeTransactionDTO> GetMadeTransaction(string userLogin)
+        {
+            var list = new List<MadeTransactionDTO>();
+            foreach (var p in bank.HistoryTransactions.Where(p=>p.From.Client.Name==userLogin))
+            {
+                list.Add(new MadeTransactionDTO(p));
+                
+            }
+            return list;
+        }
+
         public void CreateTransaction(string fromAccountId, string toAccountId, decimal sum)
         {
             if (fromAccountId == toAccountId)

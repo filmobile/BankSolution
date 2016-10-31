@@ -58,5 +58,10 @@ namespace BankClient.Controls
         {
             CreatePanel(new CurrencyPanel());
         }
+
+        private void btMadeTransactions_Click(object sender, EventArgs e)
+        {
+            CreatePanel(new MadeTransactionPanel());
+        }
     }
 }

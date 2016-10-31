@@ -51,6 +51,7 @@
     <Compile Include="Commands\CreateTransactionCommand.cs" />
     <Compile Include="Commands\GetBalanceCommand.cs" />
     <Compile Include="Commands\GetClientAccountCommand.cs" />
+    <Compile Include="Commands\GetMadeTransactionCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
     <Compile Include="Commands\SetCurrencyCommand.cs" />
     <Compile Include="Commands\SignUpCommand.cs" />

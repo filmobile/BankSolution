@@ -34,6 +34,7 @@
             this.btCreateAccount = new BankClient.BaseControls.ExButton();
             this.btTransferMoney = new BankClient.BaseControls.ExButton();
             this.btChargeBalance = new BankClient.BaseControls.ExButton();
+            this.btMadeTransactions = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccounts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,10 +121,23 @@
             this.btChargeBalance.UseVisualStyleBackColor = true;
             this.btChargeBalance.Click += new System.EventHandler(this.btChargeBalance_Click);
             // 
+            // btMadeTransactions
+            // 
+            this.btMadeTransactions.BackColor = System.Drawing.Color.Silver;
+            this.btMadeTransactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btMadeTransactions.Location = new System.Drawing.Point(600, 277);
+            this.btMadeTransactions.Name = "btMadeTransactions";
+            this.btMadeTransactions.Size = new System.Drawing.Size(110, 41);
+            this.btMadeTransactions.TabIndex = 19;
+            this.btMadeTransactions.Text = "MadeTransactions";
+            this.btMadeTransactions.UseVisualStyleBackColor = false;
+            this.btMadeTransactions.Click += new System.EventHandler(this.btMadeTransactions_Click);
+            // 
             // BankOperationPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btMadeTransactions);
             this.Controls.Add(this.btCurrency);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.btCreateAccount);
@@ -146,5 +160,6 @@
         private BaseControls.ExButton btChargeBalance;
         private BaseControls.ExButton btCreateAccount;
         private System.Windows.Forms.DataGridView dgvAccounts;
+        private System.Windows.Forms.Button btMadeTransactions;
     }
 }

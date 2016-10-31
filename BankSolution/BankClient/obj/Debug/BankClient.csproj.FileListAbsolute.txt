@@ -76,3 +76,4 @@ D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.Controls.Ch
 D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.Controls.CurrencyPanel.resources
 D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.BaseControls.BaseForm.resources
 D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.Controls.TransferMoneyPanel.resources
+D:\SourceTreeRepository\BankSolution\BankClient\obj\Debug\BankClient.Controls.MadeTransactionPanel.resources
