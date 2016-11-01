@@ -125,11 +125,12 @@
             // 
             this.btMadeTransactions.BackColor = System.Drawing.Color.Silver;
             this.btMadeTransactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btMadeTransactions.Location = new System.Drawing.Point(600, 277);
+            this.btMadeTransactions.Location = new System.Drawing.Point(600, 267);
             this.btMadeTransactions.Name = "btMadeTransactions";
             this.btMadeTransactions.Size = new System.Drawing.Size(110, 41);
             this.btMadeTransactions.TabIndex = 19;
             this.btMadeTransactions.Text = "MadeTransactions";
+            this.btMadeTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btMadeTransactions.UseVisualStyleBackColor = false;
             this.btMadeTransactions.Click += new System.EventHandler(this.btMadeTransactions_Click);
             // 
