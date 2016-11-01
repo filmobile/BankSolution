@@ -41,7 +41,7 @@ namespace BankAppServiceNS.Commands
 
         public override string ToString()
         {
-            return string.Format("AccFrom {0}, AccTo: {1}, Summa {2}", FromAccId, ToAccId, SumAcc);
+            return string.Format("AccFrom {0}, AccTo: {1}, Summa {2:0.00}", FromAccId, ToAccId, SumAcc);
         }
     }
 }
