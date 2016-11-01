@@ -29,6 +29,7 @@ namespace BankClient.Controls
         {
             var cmd = new CancelTransactionCommand() {FromAccountId=(cbCancelTransaction.SelectedItem as MadeTransactionDTO).FromAccId,ToAccountId=(cbCancelTransaction.SelectedItem as MadeTransactionDTO).ToAccId,Sum=(cbCancelTransaction.SelectedItem as MadeTransactionDTO).SumAcc };
             Client.Execute(cmd);
+            MessageBox.Show("Transaction Cancelled!");
             OnDialogResult(System.Windows.Forms.DialogResult.OK);
         }
 
