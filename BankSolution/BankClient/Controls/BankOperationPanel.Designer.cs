@@ -34,7 +34,7 @@
             this.btCreateAccount = new BankClient.BaseControls.ExButton();
             this.btTransferMoney = new BankClient.BaseControls.ExButton();
             this.btChargeBalance = new BankClient.BaseControls.ExButton();
-            this.btMadeTransactions = new System.Windows.Forms.Button();
+            this.btMadeTransactions = new BankClient.BaseControls.ExButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccounts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -160,6 +160,6 @@
         private BaseControls.ExButton btChargeBalance;
         private BaseControls.ExButton btCreateAccount;
         private System.Windows.Forms.DataGridView dgvAccounts;
-        private System.Windows.Forms.Button btMadeTransactions;
+        private BaseControls.ExButton btMadeTransactions;
     }
 }
