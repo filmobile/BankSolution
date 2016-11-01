@@ -131,7 +131,7 @@
             this.btMadeTransactions.Name = "btMadeTransactions";
             this.btMadeTransactions.Size = new System.Drawing.Size(110, 41);
             this.btMadeTransactions.TabIndex = 19;
-            this.btMadeTransactions.Text = "MadeTransactions";
+            this.btMadeTransactions.Text = "ShowTransactions";
             this.btMadeTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btMadeTransactions.UseVisualStyleBackColor = false;
             this.btMadeTransactions.Click += new System.EventHandler(this.btMadeTransactions_Click);
