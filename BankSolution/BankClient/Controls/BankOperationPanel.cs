@@ -63,5 +63,15 @@ namespace BankClient.Controls
         {
             CreatePanel(new MadeTransactionPanel());
         }
+
+        private void btCancelTransaction_Click(object sender, EventArgs e)
+        {
+            CreatePanel(new CancelTransactionPanel());
+        }
+
+        private void btDeletedTransaction_Click(object sender, EventArgs e)
+        {
+            CreatePanel(new DeletedTransactonPanel());
+        }
     }
 }

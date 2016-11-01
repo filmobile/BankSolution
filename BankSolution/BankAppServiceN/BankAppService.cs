@@ -19,7 +19,7 @@ namespace BankAppServiceNS
         Bank bank;
         public BankAppService()
         {
-            var filePath =Settings.Default.DataBaseFilePath;
+            var filePath = Settings.Default.DataBaseFilePath;
             if (File.Exists(filePath))
                 using (var fs = new FileStream(filePath, FileMode.Open))
                     bank = (Bank)new BinaryFormatter().Deserialize(fs);
@@ -75,10 +75,20 @@ namespace BankAppServiceNS
         public List<MadeTransactionDTO> GetMadeTransaction(string userLogin)
         {
             var list = new List<MadeTransactionDTO>();
-            foreach (var p in bank.HistoryTransactions.Where(p=>p.From.Client.Name==userLogin))
+            foreach (var p in bank.HistoryTransactions.Where(p => p.From.Client.Name == userLogin))
             {
                 list.Add(new MadeTransactionDTO(p));
-                
+
+            }
+            return list;
+        }
+
+        public List<CancelTransactionDTO> GetCancelTransaction(string userLogin)
+        {
+            var list = new List<CancelTransactionDTO>();
+            foreach (var p in bank.HistoryOfCancelledTransactions.Where(p=>p.From.Client.Name==userLogin))
+            {
+                list.Add(new CancelTransactionDTO(p));
             }
             return list;
         }
@@ -91,6 +101,12 @@ namespace BankAppServiceNS
             var accountFrom = bank.Accounts.First(p => p.Id == fromAccountId);
             var accountTo = bank.Accounts.First(p => p.Id == toAccountId);
             bank.MakeTransaction(accountFrom, accountTo, sum);
+        }
+
+        public void CancelTransacton(string fromAccountId, string toAccountId, decimal sum)
+        {
+            var tr = bank.HistoryTransactions.First(p=>p.From.Id==fromAccountId && p.To.Id==toAccountId && p.Summa==sum);
+            bank.CancelTransaction(tr);
         }
 
         public void WriteBankData()

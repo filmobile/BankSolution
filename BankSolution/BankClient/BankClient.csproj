@@ -68,6 +68,12 @@
     <Compile Include="Controls\BankOperationPanel.Designer.cs">
       <DependentUpon>BankOperationPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\CancelTransactionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CancelTransactionPanel.Designer.cs">
+      <DependentUpon>CancelTransactionPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\CreateAccountPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +105,12 @@
     <Compile Include="BaseControls\BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\DeletedTransactonPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DeletedTransactonPanel.Designer.cs">
+      <DependentUpon>DeletedTransactonPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\MadeTransactionPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -118,6 +130,9 @@
     <EmbeddedResource Include="Controls\BankOperationPanel.resx">
       <DependentUpon>BankOperationPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CancelTransactionPanel.resx">
+      <DependentUpon>CancelTransactionPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\CreateAccountPanel.resx">
       <DependentUpon>CreateAccountPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaseControls\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DeletedTransactonPanel.resx">
+      <DependentUpon>DeletedTransactonPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\MadeTransactionPanel.resx">
       <DependentUpon>MadeTransactionPanel.cs</DependentUpon>

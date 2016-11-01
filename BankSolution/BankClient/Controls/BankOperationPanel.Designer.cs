@@ -35,6 +35,8 @@
             this.btTransferMoney = new BankClient.BaseControls.ExButton();
             this.btChargeBalance = new BankClient.BaseControls.ExButton();
             this.btMadeTransactions = new BankClient.BaseControls.ExButton();
+            this.btCancelTransaction = new BankClient.BaseControls.ExButton();
+            this.btDeletedTransaction = new BankClient.BaseControls.ExButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccounts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,10 +136,38 @@
             this.btMadeTransactions.UseVisualStyleBackColor = false;
             this.btMadeTransactions.Click += new System.EventHandler(this.btMadeTransactions_Click);
             // 
+            // btCancelTransaction
+            // 
+            this.btCancelTransaction.BackColor = System.Drawing.Color.Silver;
+            this.btCancelTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btCancelTransaction.Location = new System.Drawing.Point(600, 314);
+            this.btCancelTransaction.Name = "btCancelTransaction";
+            this.btCancelTransaction.Size = new System.Drawing.Size(110, 40);
+            this.btCancelTransaction.TabIndex = 20;
+            this.btCancelTransaction.Text = "CancelTransaction";
+            this.btCancelTransaction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btCancelTransaction.UseVisualStyleBackColor = false;
+            this.btCancelTransaction.Click += new System.EventHandler(this.btCancelTransaction_Click);
+            // 
+            // btDeletedTransaction
+            // 
+            this.btDeletedTransaction.BackColor = System.Drawing.Color.Silver;
+            this.btDeletedTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDeletedTransaction.Location = new System.Drawing.Point(600, 361);
+            this.btDeletedTransaction.Name = "btDeletedTransaction";
+            this.btDeletedTransaction.Size = new System.Drawing.Size(110, 36);
+            this.btDeletedTransaction.TabIndex = 21;
+            this.btDeletedTransaction.Text = "DeletedTransaction";
+            this.btDeletedTransaction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btDeletedTransaction.UseVisualStyleBackColor = false;
+            this.btDeletedTransaction.Click += new System.EventHandler(this.btDeletedTransaction_Click);
+            // 
             // BankOperationPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btDeletedTransaction);
+            this.Controls.Add(this.btCancelTransaction);
             this.Controls.Add(this.btMadeTransactions);
             this.Controls.Add(this.btCurrency);
             this.Controls.Add(this.pnMain);
@@ -162,5 +192,7 @@
         private BaseControls.ExButton btCreateAccount;
         private System.Windows.Forms.DataGridView dgvAccounts;
         private BaseControls.ExButton btMadeTransactions;
+        private BaseControls.ExButton btCancelTransaction;
+        private BaseControls.ExButton btDeletedTransaction;
     }
 }

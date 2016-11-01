@@ -46,10 +46,12 @@
     <Compile Include="BaseClasses\Command.cs" />
     <Compile Include="BaseClasses\ErrorAnswer.cs" />
     <Compile Include="BaseClasses\OkAnswer.cs" />
+    <Compile Include="Commands\CancelTransactionCommand.cs" />
     <Compile Include="Commands\CreateAccountCommand.cs" />
     <Compile Include="Commands\CreateFirstTransactionsCommand.cs" />
     <Compile Include="Commands\CreateTransactionCommand.cs" />
     <Compile Include="Commands\GetBalanceCommand.cs" />
+    <Compile Include="Commands\GetCancelTransactionCommand.cs" />
     <Compile Include="Commands\GetClientAccountCommand.cs" />
     <Compile Include="Commands\GetMadeTransactionCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
