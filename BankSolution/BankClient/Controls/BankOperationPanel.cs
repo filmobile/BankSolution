@@ -37,6 +37,7 @@ namespace BankClient.Controls
         {
             var cmd = new GetClientAccountCommand() { UserLogin = Client.UserLoginIn };
             dgvAccounts.DataSource = (Client.Execute(cmd) as ClientAccountAnswer).Accounts;
+            dgvAccounts.Columns["Balance"].DefaultCellStyle.Format = "0.00";
         }
 
         private void btCreateAccount_Click(object sender, EventArgs e)
